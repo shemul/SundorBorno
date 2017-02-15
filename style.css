@@ -1,0 +1,64 @@
+body{
+	background:url(images/BG.png) fixed;
+	background-size:100% 100%;}
+.header_part{
+	float:left;
+	width:100%;
+	background:url(images/bg-overlay.png) fixed bottom no-repeat;
+	background-size:100%;}
+.smallise{
+	padding:0 22%;}
+.logo{
+	float:left;
+	width:100%;
+	margin-top:60px;
+	margin-bottom:20px;
+	text-align:center;}
+.logo img{
+	max-height:100px;
+	max-width:100%;}
+.banner{
+	float:left;
+	width:100%;
+	text-align:center;
+
+	margin:0px 0;}
+.banner img{
+	max-width:100%;}
+.letter-wrapper{
+	float:left;
+	width:100%;
+	margin:50px 0 20px;}
+.letter{
+	float:left;
+	width:10%;
+	padding:3px;}
+.letter img{
+	width:100%;
+	border-radius:7px;
+	cursor:pointer;}
+.active-letter{
+	border:1px solid #F00;}
+.smimg img{
+	width:50%}
+.button{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-bottom:5px;}
+.button img{
+	height:30px;}
+@media(max-width:767px){
+.logo{
+	margin-top:5px;}
+.logo img{
+	max-height:50px;}
+.letter-wrapper{
+	margin:10px 0;}
+.letter img{
+	height:auto;}
+.letter{
+	width:20%;}
+.smimg img{
+	width:90%}
+}
